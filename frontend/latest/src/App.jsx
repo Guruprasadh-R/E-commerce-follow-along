@@ -3,7 +3,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import {Login,Signup,Home, MyProducts,Cart} from "./routes/Routes"
+import {Login,Signup,Home, MyProducts,Cart, CreateAddress} from "./routes/Routes"
 import CreateProduct from './pages/CreateProduct';
 import ProductDetails from './pages/productDetails';
 
@@ -18,6 +18,8 @@ function App(){
       <Route path='/my-products' element={<MyProducts/>}/>
       <Route path='/productDetails' element={<ProductDetails/>}/>
       <Route path='/cart' element={<Cart/>}/>
+      <Route path='/createAddress' element={<CreateAddress/>}/>
+      
     </Routes>
     </BrowserRouter>
   )
