@@ -6,6 +6,8 @@ import React from 'react'
 import {Login,Signup,Home, MyProducts,Cart, CreateAddress} from "./routes/Routes"
 import CreateProduct from './pages/CreateProduct';
 import ProductDetails from './pages/productDetails';
+import SelectAddress from './pages/SelectAddress';
+
 
 function App(){
   return(
@@ -19,6 +21,8 @@ function App(){
       <Route path='/productDetails' element={<ProductDetails/>}/>
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/createAddress' element={<CreateAddress/>}/>
+      <Route path='/SelectAddress' element={<SelectAddress/>}/>
+  
       
     </Routes>
     </BrowserRouter>
