@@ -221,3 +221,19 @@ Add a "Place Order" button inside the cart page. Create a Select Address Page wh
 
 Frontend Updates: Cart Page & Address Selection Added a "Place Order" button inside the cart page. When clicked, it navigates to the Select Address Page. Displayed all saved addresses for the user. Allowed users to select an address for order delivery.
 Backend Updates: Order Schema & Storage Created a Mongoose schema to store order details, including: User ID (to associate orders with users) Product details (items in the cart) Selected delivery address Order status (pending, shipped, delivered) Total price Timestamp Implemented an endpoint to store orders in the database.
+
+## Milestone 24: Implementing Insert an Entity in React App
+
+Project Overview 
+
+This milestone focuses on creating an Order Confirmation Page for the frontend of our React application. The page displays product ordering details, selected delivery address, and the total price. Additionally, it includes a "Place Order" button to proceed with the order.
+
+Tasks Completed 
+
+Displayed all ordered products.
+
+Shown the selected delivery address.
+
+Calculated and displayed the total price of the cart.
+
+Added a "Place Order" button to confirm the order.

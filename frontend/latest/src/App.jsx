@@ -7,6 +7,7 @@ import {Login,Signup,Home, MyProducts,Cart, CreateAddress} from "./routes/Routes
 import CreateProduct from './pages/CreateProduct';
 import ProductDetails from './pages/productDetails';
 import SelectAddress from './pages/SelectAddress';
+import OrderConfirmation from './pages/OrderConfirmation';
 
 
 function App(){
@@ -22,6 +23,7 @@ function App(){
       <Route path='/cart' element={<Cart/>}/>
       <Route path='/createAddress' element={<CreateAddress/>}/>
       <Route path='/SelectAddress' element={<SelectAddress/>}/>
+      <Route path='/OrderConfirmation' element={<OrderConfirmation/>}/>
   
       
     </Routes>
