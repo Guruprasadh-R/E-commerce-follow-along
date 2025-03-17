@@ -238,7 +238,7 @@ Calculated and displayed the total price of the cart.
 
 Added a "Place Order" button to confirm the order.
 
-## Milestone 25
+## Milestone 25 :
 This milestone focuses on creating a backend endpoint to place an order. The endpoint receives product details, user information, and address details, retrieves the user's _id using their email, and stores order details in the MongoDB orders collection.
 
 Steps Completed
@@ -246,3 +246,12 @@ Steps Completed
 ✔ Retrieved the user's _id using their email.
 ✔ Ensured each product has a separate order with the same address.
 ✔ Stored order details in MongoDB using the existing order schema.
+
+## Milestone 26:
+This milestone focuses on creating a backend endpoint to retrieve all orders placed by a specific user. The endpoint receives the user's email, fetches their _id, and returns all orders associated with that user.
+
+Steps Completed
+✔ Created an endpoint to fetch all orders of a user.
+✔ Retrieved the user's _id using their email.
+✔ Queried the database to get all orders linked to the user's _id.
+✔ Sent the retrieved orders in the response.
