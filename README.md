@@ -237,3 +237,12 @@ Shown the selected delivery address.
 Calculated and displayed the total price of the cart.
 
 Added a "Place Order" button to confirm the order.
+
+## Milestone 25
+This milestone focuses on creating a backend endpoint to place an order. The endpoint receives product details, user information, and address details, retrieves the user's _id using their email, and stores order details in the MongoDB orders collection.
+
+Steps Completed
+✔ Created an endpoint to handle order placement.
+✔ Retrieved the user's _id using their email.
+✔ Ensured each product has a separate order with the same address.
+✔ Stored order details in MongoDB using the existing order schema.
