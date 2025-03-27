@@ -3,7 +3,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import {Login,Signup,Home, MyProducts,Cart, CreateAddress} from "./routes/Routes"
+import {Login,Signup,Home, MyProducts,Cart, CreateAddress, Myorders, Profile} from "./routes/Routes"
 import CreateProduct from './pages/CreateProduct';
 import ProductDetails from './pages/productDetails';
 import SelectAddress from './pages/SelectAddress';
@@ -16,7 +16,7 @@ function App(){
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Login/>}/>
-      <Route path='/signup' element={<Signup/>}/>
+      <Route path='/create-user' element={<Signup/>}/>
       <Route path='/Create-Product' element={<CreateProduct/>}/>
       <Route path='/my-products' element={<MyProducts/>}/>
       <Route path='/productDetails' element={<ProductDetails/>}/>
@@ -24,6 +24,8 @@ function App(){
       <Route path='/createAddress' element={<CreateAddress/>}/>
       <Route path='/SelectAddress' element={<SelectAddress/>}/>
       <Route path='/OrderConfirmation' element={<OrderConfirmation/>}/>
+      <Route path='/myorders' element={<Myorders/>}/>
+      <Route path='/profile' element={<Profile/>}/>
   
       
     </Routes>
