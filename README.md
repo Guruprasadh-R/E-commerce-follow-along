@@ -274,3 +274,24 @@ In this milestone, we implemented the functionality to cancel placed orders. A c
 - Ensured the cancel button is not displayed for already canceled orders.
 - Created a backend endpoint to receive the **order ID** and update the order status to **canceled**.
 - Implemented logic to fetch and update the order in the database.
+
+## Milestone 29: PayPal Payment Gateway Integration
+In this milestone, we successfully initiated the integration of an online payment system into our application using the PayPal API, laying the groundwork for secure and seamless transactions.
+
+Key Achievements 🚀 Learning PayPal API:
+
+Explored PayPal's developer platform to understand the API structure and sandbox testing environment.
+
+Sandbox Setup:
+
+Created and configured a PayPal Developer account.
+
+Set up a sandbox account for safe and effective payment testing.
+
+Retrieved and securely stored the sandbox account’s User ID and Client ID for integration purposes.
+
+Order Confirmation Page Enhancement:
+
+Successfully updated the order confirmation page to offer two payment options: Cash on Delivery (COD) and Online Payment.
+
+Implemented radio buttons to allow users to toggle between COD and online payment methods.
