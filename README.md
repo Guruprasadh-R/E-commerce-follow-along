@@ -319,3 +319,18 @@ userActions.js: Defined a setEmail action to update the email in the global stat
 Integration with React Application
 
 Wrapped the App component inside the Provider component in index.js, passing the store as a prop to ensure global access to the email state.
+
+##  Milestone 32: Saving Email in Redux  
+
+## ✅ Tasks Completed  
+- Implemented Redux to store the email globally.  
+- Used `dispatch()` to save the email after login.  
+- Accessed the email across pages using `useSelector()`.  
+
+## Milestone 33: JWT Token & Cookie Storage  
+
+## ✅ Tasks Completed  
+- Installed `jsonwebtoken` package using NPM.  
+- Used `sign()` method to generate a JWT token with email and user ID.  
+- Set `maxAge` to define token expiration time.  
+- Stored the JWT token inside a cookie in the response.  
