@@ -2,12 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import Nav from '../components/nav'; 
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux'
 const SelectAddress = () => {
     const [addresses, setAddresses] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const navigate = useNavigate();
-    const userEmail = 'guruprasadhraghavan@gmail.com'; // Replace with dynamic email in production
+    const userEmail = useSelector((state) => state.user.email);
+
+    
 
     useEffect(() => {
         const fetchAddresses = async () => {
