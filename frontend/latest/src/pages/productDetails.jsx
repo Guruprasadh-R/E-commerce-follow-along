@@ -5,6 +5,7 @@ import axios from "axios";
 import Nav from "../components/nav";
 import { IoIosAdd } from "react-icons/io";
 import { IoIosRemove } from "react-icons/io";
+import { useSelector } from 'react-redux'
 
 
 export default function ProductDetails() {
@@ -13,7 +14,8 @@ export default function ProductDetails() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [quantity, setQuantity] = useState(0); // 1. Initialize quantity state
-    const email = "guruprasadhraghavan@gmail.com";  
+    const userEmail = useSelector((state) => state.user.email);
+    const email = userEmail
 
 
     useEffect(() => {
